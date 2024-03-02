@@ -1,0 +1,66 @@
+.unidadDos {
+    height: 360vh;
+}
+.parrafoDos {
+    font-size: 20px;
+    display: flex;
+    width: 60vh;
+    margin-top: 2rem;
+}
+.achicar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+    margin-top: 2rem;
+}
+.mover {
+    margin-top: 2rem;
+    width: 38rem;
+    height: 21rem;
+}
+.iconos {
+    width: 20rem;
+    height: 28rem;
+}
+
+.segundoTitulo {
+    font-size: 24px;
+    margin-top: 5rem;
+    font-weight: bold;
+}
+.moverAbajo {
+    margin-top: 1rem;
+}
+.moverCostado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mail a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.recordatorios {
+    margin-top: 2rem;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.vistoVerde {
+    width: 3rem;
+    margin: 2rem;
+}
+.tituloRecordar {
+    margin-top: 7rem;
+}
+ul {
+    list-style-type: none; /* Elimina el estilo de viñeta */
+    padding: 0; /* Elimina el relleno predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+  }

@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centrar verticalmente */
+  width: 100%;
+  background-color: aqua;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  
+}
+.navbar-left h3 a {
+  text-decoration: none !important;
+}
+.unidades li a {
+  text-decoration: none !important; /* Quitar la línea de abajo */
+}
+
+.navbar-center {
+  flex: 1;
+  text-align: center;
+  text-decoration: none; 
+}
+
+.unidades {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style-type: none;
+  
+}
+
+.unidades li {
+  margin-right: 2rem;
+}
+
+.unidades li:last-child {
+  margin-right: 0; /* Eliminar el margen derecho del último elemento */
+}
+
+.navbar-right {
+  display: flex;
+  height: 5rem;
+  width: 5rem;
+  margin-right: 1rem;
+}
+
+
