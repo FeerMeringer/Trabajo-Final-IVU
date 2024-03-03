@@ -1,5 +1,16 @@
 .unidadUno {
-    height: 600vh;
+    width: 70vw;
+    background-color: #fff;
+    margin: 2rem;
+    height: 570vh;
+}
+.imagenFondoA {
+    background-image: url("https://i.ibb.co/vVsPwKC/image-1.png");
+    background-size: contain;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    height: 590vh;
 }
 .tituloDos {
     font-size: 40px;
@@ -79,7 +90,7 @@
 .card {
     display: flex;
     flex-direction: row;
-    width: 900px; /* Ajusta el ancho según sea necesario */
+    width: 700px; /* Ajusta el ancho según sea necesario */
     margin: 10px; /* Margen entre las tarjetas */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -145,12 +156,15 @@ td:first-child {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-.reglamento-buttons {
+.reglamento-buttonsA {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     justify-content: space-around;
+}
+.tres {
+    display: flex;
+    margin: 1rem;
     
 }
 button {
@@ -166,12 +180,14 @@ button {
 .legajo {
    margin-top: 3rem;
 }
-.reglas {
-    width: 20rem;
-    height: 20rem;
-}
 .map-container {
     margin-top: 10rem;
+}
+.map-containerA {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    
 }
 .containerB {
     display: flex;
@@ -182,7 +198,5 @@ button {
   .areaButton {
     margin-top: 15px; /* Espacio entre la imagen y el botón */
   }
-  .reglas {
-    border-radius: 30px; /* Define el radio de los bordes */
-  }
+
 

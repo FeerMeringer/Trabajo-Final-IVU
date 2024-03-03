@@ -147,6 +147,7 @@ export default function UnidadUno() {
 
 
   return (
+    <section className='imagenFondoA'>
     <div className='unidadUno'>
       <h1>UNdeC: historia y organización</h1>
       <div className="timeline">
@@ -171,7 +172,7 @@ export default function UnidadUno() {
       <div className='tarjetas'>
         <h2 className='tituloDos'>Oferta Académica</h2>
         <div className="card">
-          <img src="https://i.ibb.co/r3xVbRG/img13.jpg" alt="Placeholder Image" />
+          {/* <img src="https://i.ibb.co/r3xVbRG/img13.jpg" alt="Placeholder Image" /> */}
           <div className="card-content">
             <h3>Escuela de Ciencias
               Naturales /
@@ -205,7 +206,7 @@ export default function UnidadUno() {
           </div>
         </div>
         <div className="card">
-          <img src="https://i.ibb.co/r3xVbRG/img13.jpg" />
+         
           <div className="card-content">
             <h3>Escuela de Ciencias
               Humanas y de la Salud /
@@ -242,7 +243,7 @@ export default function UnidadUno() {
           </div>
         </div>
         <div className="card">
-          <img src="https://i.ibb.co/r3xVbRG/img13.jpg" />
+
           <div className="card-content">
             <h3>Escuela de Ciencias
               Sociales / Ab. Pablo
@@ -282,7 +283,6 @@ export default function UnidadUno() {
           </div>
         </div>
         <div className="card">
-          <img src="https://i.ibb.co/r3xVbRG/img13.jpg" />
           <div className="card-content">
             <h3>Escuela de Ingeniería / Ing. Enrique Nicolás Martínez</h3>
             <table>
@@ -318,17 +318,19 @@ export default function UnidadUno() {
       </div>
       <div className="map-container">
   <h2 className='tituloDos'>Reglamento De Alumnos</h2>
-  <div className="reglamento-buttons">
-    <button  onClick={() => openModal(reglamentoIngreso)}>Ingreso</button>
+  <div className="reglamento-buttonsA">
+    <div className='tres'>
+    <button   onClick={() => openModal(reglamentoIngreso)}>Ingreso</button>
     <button className='legajo' onClick={() => openModal(reglamentoLegajo)}>Legajo</button>
     <button onClick={() => openModal(reglamentoInscripciones)}>Inscripciones</button>
-    <div>
-    <img className='reglas' src="https://i.ibb.co/k8XtG3B/reglas.png" alt="" />
-  </div>
+    </div>
+    <div className='tres'>
     <button className='legajo' onClick={() => openModal(reglamentoRegularidad)}>Regularidad</button>
     <button onClick={() => openModal(reglamentoCorrelatividades)}>Correlatividades</button>
     <button className='legajo' onClick={() => openModal(reglamentoEvaluaciones)}>Evaluaciones</button>
+    </div>
   </div>
+
 
   {modalContentA && (
     <div className="modalA">
@@ -339,23 +341,23 @@ export default function UnidadUno() {
     </div>
   )}
 </div>
-<div className="map-container">
+<div className="map-containerA">
   <h2 className='tituloDos'>Servicios de la UNdeC para los estudiantes</h2>
-  <div className="reglamento-buttons">
+  <div className="reglamento-buttonsA">
+    <div className='tres'>
     <button  onClick={() => openModal(servicioIngreso)}>Servicio de Ingreso</button>
     <button className='legajo' onClick={() => openModal(servicioTutorias)}>Servicio de Tutorías Estudiantiles</button>
     <button onClick={() => openModal(servicioBecas)}>Servicio de Becas</button>
-    <div>
-    <div className="containerB">
-  <img className='reglas' src="https://i.ibb.co/phmct93/biblio.jpg" alt="" />
-  <button className='areaButton' onClick={() => openModal(biblioteca)}>Biblioteca</button>
-</div>
-    
   </div>
+  <div className='tres'>
     <button className='legajo' onClick={() => openModal(areaAccesibilidad)}>Área de Accesibilidad y Discapacidad</button>
     <button onClick={() => openModal(servicioOrientacion)}>Servicio de Orientación Vocacional</button>
     <button className='legajo' onClick={() => openModal(comisionGenero)}>Comisión de Género y Diversidad</button>
   </div>
+  </div>
+  <div>
+  <button onClick={() => openModal(biblioteca)}>Biblioteca</button>
+  </div>
 
   {modalContentA && (
     <div className="modalA">
@@ -367,5 +369,6 @@ export default function UnidadUno() {
   )}
 </div>
 </div>
+</section>
   );
 }

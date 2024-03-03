@@ -4,6 +4,7 @@ import './paginaPrincipal.css';
 
 export default function PaginaPrincipal() {
   return (
+    <section className='imagenFondoB'>
     <div className='pagina'>
       <h1 className='tituloPrincipal'>Introducción a la Vida Universitaria</h1>
       <div className="carousel-container">
@@ -148,6 +149,7 @@ export default function PaginaPrincipal() {
       </div>
 
     </div>
+    </section>
 
   );
 }

@@ -4,34 +4,35 @@ import './unidadDos.css'
 export default function unidadDos() {
   
   return (
+    <section className='imagenFondo'>
     <div className='unidadDos'>
       <h1>Usos del Aula Virtual</h1>
      
       <div className='achicar'>
-        <img className='iconos' src="https://i.ibb.co/dkNfRbh/conjunto-iconos-educacion-linea-1284-6139.jpg" alt="" />
+        {/* <img className='iconos' src="https://i.ibb.co/dkNfRbh/conjunto-iconos-educacion-linea-1284-6139.jpg" alt="" /> */}
         <p className='parrafoDos'>El aula física y el aula virtual se complementan como pilares fundamentales para respaldar la
           enseñanza presencial. Mientras el aula física fomenta la interacción directa, el aula virtual ofrece
           un espacio dinámico para recursos digitales, actividades colaborativas y acceso continuo a
           materiales educativos, enriqueciendo así la experiencia de aprendizaje. Ambos entornos se
           entrelazan para proporcionar un enfoque integral que potencia el proceso educativo.</p>
-        <img className='iconos' src="https://i.ibb.co/dkNfRbh/conjunto-iconos-educacion-linea-1284-6139.jpg" alt="" />
+        {/* <img className='iconos' src="https://i.ibb.co/dkNfRbh/conjunto-iconos-educacion-linea-1284-6139.jpg" alt="" /> */}
       </div>
       <div className='moverAbajo'>
         <div className='moverCostado'>
-        <img className='iconos' src="https://i.ibb.co/dkNfRbh/conjunto-iconos-educacion-linea-1284-6139.jpg" alt="" />
+        {/* <img className='iconos' src="https://i.ibb.co/dkNfRbh/conjunto-iconos-educacion-linea-1284-6139.jpg" alt="" /> */}
         <img className='mover' src="https://i.ibb.co/WpnGfcx/Logo-Campus-Virtual.png" alt="" />
-        <img className='iconos' src="https://i.ibb.co/dkNfRbh/conjunto-iconos-educacion-linea-1284-6139.jpg" alt="" />
+        {/* <img className='iconos' src="https://i.ibb.co/dkNfRbh/conjunto-iconos-educacion-linea-1284-6139.jpg" alt="" /> */}
         </div>
         <div className='achicar'>
-          <img className='iconos' src="https://i.ibb.co/dkNfRbh/conjunto-iconos-educacion-linea-1284-6139.jpg" alt="" />
+          {/* <img className='iconos' src="https://i.ibb.co/dkNfRbh/conjunto-iconos-educacion-linea-1284-6139.jpg" alt="" /> */}
           <p className='parrafoDos'>Es una plataforma en línea (un sitio web que podemos acceder desde un navegador de
             nuestra PC o una App desde nuestro móvil), de enseñanza y aprendizaje, que permite la
             interacción entre los estudiantes y los profesores. En el campus virtual encontrarás acceso a
             cada una de las aulas virtuales de las asignaturas que debes cursar en sus carreras y en ellas los
             contenidos, materiales, las actividades y las herramientas para comunicarse.
             </p>
-
-          <img className='iconos' src="https://i.ibb.co/dkNfRbh/conjunto-iconos-educacion-linea-1284-6139.jpg" alt="" />
+{/* 
+          <img className='iconos' src="https://i.ibb.co/dkNfRbh/conjunto-iconos-educacion-linea-1284-6139.jpg" alt="" /> */}
         </div>
         <div className='mail'>
         <a href="https://sites.google.com/view/tice-undec/campus-virtual" target="_blank">Ingresa Al Campus</a>
@@ -54,6 +55,6 @@ export default function unidadDos() {
 
       </div>
     </div>
-
+    </section>
   )
 }

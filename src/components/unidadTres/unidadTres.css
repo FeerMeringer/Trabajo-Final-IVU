@@ -1,0 +1,8 @@
+.imagenFondoTres {
+    background-image: url("https://i.ibb.co/vVsPwKC/image-1.png");
+    background-size: contain;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}

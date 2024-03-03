@@ -1,7 +1,12 @@
 import React from 'react'
+import './unidadTres.css'
 
 export default function unidadTres() {
   return (
-    <div>unidadTres</div>
+    <section className='imagenFondoTres'>
+    <div className='unidadTres'> 
+    <h1>Aprendiendo a ser Estudiante Universitario</h1>
+    </div>
+    </section>
   )
 }

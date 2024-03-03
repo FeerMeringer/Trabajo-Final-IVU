@@ -1,0 +1,34 @@
+.unidadCuatro {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin: 2rem;
+}
+.imagenFondoCuatro {
+    background-image: url("https://i.ibb.co/vVsPwKC/image-1.png");
+    background-size: contain;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    height: 200vh;
+}
+.tecnicas {
+    width: 50vw;
+    margin: 2rem;
+    font-weight: bold;
+}
+.cardA {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(30, 29, 29, 0.1);
+    border-radius: 15px;
+    margin: 2rem;
+    border: 2px solid #ccc; /* Agrega un borde sólido de 2px con un color gris claro */
+}
+.cardA:hover {
+    cursor: pointer;
+}

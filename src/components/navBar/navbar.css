@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center; /* Centrar verticalmente */
   width: 100%;
-  background-color: aqua;
+  background-color: rgb(69, 68, 68);
 }
 
 .navbar-left {
@@ -14,9 +14,11 @@
 }
 .navbar-left h3 a {
   text-decoration: none !important;
+  color: rgb(255, 252, 252);
 }
 .unidades li a {
-  text-decoration: none !important; /* Quitar la línea de abajo */
+  text-decoration: none !important; 
+  color: rgb(255, 255, 255);
 }
 
 .navbar-center {

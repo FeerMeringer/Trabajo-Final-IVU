@@ -3,7 +3,17 @@
   font-weight: bold;
 }
 .pagina {
-  height: 360vh;
+  height: 420vh;
+  background-color: #fff;
+  width: 70vw;
+  margin: 2rem;
+}
+.imagenFondoB {
+  background-image: url("https://i.ibb.co/vVsPwKC/image-1.png");
+    background-size: contain;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
 }
 
 .carousel-container {
