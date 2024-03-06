@@ -78,3 +78,23 @@ ul {
     padding: 0; /* Elimina el relleno predeterminado */
     margin: 0; /* Elimina el margen predeterminado */
   }
+  @media (min-width: 320px) and (max-width: 554px) {
+    .imagenFondo {
+        height: 700vh;
+    }
+    .unidadDos {
+        height: 650vh;
+    }
+    .mover {
+        width: 12rem;
+        height: 10rem;
+    }
+  }
+  @media (min-width: 554px) and (max-width: 768px) {
+    .imagenFondo {
+        height: 500vh;
+    }
+    .unidadDos {
+        height: 420vh;
+    }
+  }

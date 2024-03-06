@@ -147,6 +147,10 @@ export default function PaginaPrincipal() {
           </tbody>
         </table>
       </div>
+      <div className='campus'>
+        <h3>Campus:</h3>
+        <img className='campusA' src="https://i.ibb.co/bdxQ9dw/Whats-App-Image-2024-02-14-at-19-13-28.jpg" alt="" />
+      </div>
 
     </div>
     </section>

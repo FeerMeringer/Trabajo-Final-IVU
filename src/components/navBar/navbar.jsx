@@ -18,7 +18,7 @@ export default function Navbar() {
         </ol>
       </div>
       <div className="navbar-right">
-        <img src="https://i.ibb.co/3NBGfXk/logo-Undec.jpg" alt='logo' />
+        <img src="https://i.ibb.co/nPWh5GL/logo-Undec-removebg-preview.png" alt='logo' />
       </div>
     </nav>
   );

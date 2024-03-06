@@ -3,7 +3,7 @@
   font-weight: bold;
 }
 .pagina {
-  height: 420vh;
+  height: 480vh;
   background-color: #fff;
   width: 70vw;
   margin: 2rem;
@@ -117,7 +117,169 @@
   align-items: center;
   height: 80vh;
 }
+.campusA {
+  width: 45rem;
+  height: 23rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
 
+@media (min-width: 320px) and (max-width: 554px) {
+  .imagenFondoB{
+    height: 600vh;
+    width: auto;
+  }
+  .pagina {
+    height: 1000vw;
+  }
+  .tituloPrincipal {
+    font-size: 20px;
+    margin: 2rem;
+
+  }
+  .Carousel.Item {
+    width: auto;
+    height: auto;
+  }
+  .carousel-container {
+    width: auto;
+    height: auto;
+  }
+  .image-container {
+    width: 12rem;
+    height: 4rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    height: 100vh;
+  }
+  .containerDos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55rem;
+  }
+  .text-container {
+    font-size: 6px;
+    height: 20vh;
+    margin-bottom: 42vh;
+    margin-right: 2rem;
+  }
+  .text-containerDos {
+    font-size: 6px;
+    height: 20vh;
+    margin-right: 2rem;
+  }
+  .text-containerA {
+    font-size: 6px;
+    margin-right: 3rem;
+  }
+  .tabla-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rem;
+  }
+  .tabla {
+    display: none;
+  }
+  .campusA {
+    width: 12rem;
+    height: 8rem;
+  }
+}
+@media (min-width: 375px) and (max-width: 554px) {
+  .imagenFondoB{
+    height: 600vh;
+    width: auto;
+  }
+  .pagina {
+    height: 850vw;
+  }
+  .tituloPrincipal {
+    font-size: 20px;
+    margin: 2rem;
+
+  }
+  .Carousel.Item {
+    width: auto;
+    height: auto;
+  }
+  .carousel-container {
+    width: auto;
+    height: auto;
+  }
+  .image-container {
+    width: 12rem;
+    height: 4rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    height: 100vh;
+  }
+  .containerDos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55rem;
+  }
+  .text-container {
+    font-size: 6px;
+    height: 20vh;
+    margin-bottom: 42vh;
+    margin-right: 2rem;
+  }
+  .text-containerDos {
+    font-size: 6px;
+    height: 20vh;
+    margin-right: 2rem;
+  }
+  .text-containerA {
+    font-size: 6px;
+    margin-right: 3rem;
+  }
+  .tabla-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rem;
+  }
+  .tabla {
+    display: none;
+  }
+  .campusA {
+    width: 12rem;
+    height: 8rem;
+  }
+}
+@media (min-width: 554px) and (max-width: 768px) {
+  .campusA {
+    width: 18rem;
+    height: 12rem;
+  }
+  .tituloPrincipal {
+    margin: 2rem;
+  }
+  .imagenFondoB{
+    height: 550vh;
+    width: auto;
+  }
+  .pagina {
+    height: 500vh;
+  }
+
+}
+@media (min-width: 425px) and (max-width: 554px) {
+  .pagina { 
+    height: 580vh;
+
+  }
+  .tabla {
+    display: none;
+  }
+}
 
 
 

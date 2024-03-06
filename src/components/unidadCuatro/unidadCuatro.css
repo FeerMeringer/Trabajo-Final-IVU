@@ -32,3 +32,19 @@
 .cardA:hover {
     cursor: pointer;
 }
+@media (min-width: 320px) and (max-width: 554px) {
+    .imagenFondoCuatro {
+        height: 450vh;
+    }
+    .unidadCuatro {
+        height: 420vh;
+    }
+}
+@media (min-width: 554px) and (max-width: 768px) {
+    .imagenFondoCuatro {
+        height: 400vh;
+    }
+    .unidadCuatro {
+        height: 380vh;
+    }
+}

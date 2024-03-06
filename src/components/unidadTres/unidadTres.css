@@ -4,5 +4,35 @@
     background-repeat: repeat;
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 150vh;
+}
+.unidadTres {
+    width: 70vw;
+    background-color: #fff;
+    margin: 1rem;
+    font-weight: bold ;
+}
+.video {
+    width: 100%; /* El video ocupará todo el ancho del div contenedor */
+    height: 100%; /* El video ocupará todo el alto del div contenedor */
+    position: absolute; /* Para posicionar el video correctamente dentro del div */
+    top: 0; /* Lo posiciona en la parte superior del div */
+    left: 0; 
+}
+.videoA {
+    width: 70vw; /* Ancho deseado del contenedor */
+    height: 315px; /* Alto deseado del contenedor */
+    position: relative; /* Para que el iframe se posicione relativo al div */
+    overflow: hidden;
+    margin-top: 8rem;
+}
+@media (min-width: 320px) and (max-width: 554px) {
+    .imagenFondoTres {
+        height: 400vh;
+    }
+}
+@media (min-width: 554px) and (max-width: 768px) {
+    .imagenFondoTres {
+        height: 300vh;
+    }
 }
