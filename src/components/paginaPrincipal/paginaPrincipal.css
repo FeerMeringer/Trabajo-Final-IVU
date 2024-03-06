@@ -128,11 +128,11 @@
 
 @media (min-width: 320px) and (max-width: 554px) {
   .imagenFondoB{
-    height: 600vh;
+    height: 500vh;
     width: auto;
   }
   .pagina {
-    height: 1000vw;
+    height: 800vw;
   }
   .tituloPrincipal {
     font-size: 20px;
